@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # Load the saved model
-model = pickle.load(open('MKlinear.sav', 'rb'))
+model = pickle.load(open('MKLinear.sav', 'rb'))
 
 st.title('Sales Prediction App')
 
